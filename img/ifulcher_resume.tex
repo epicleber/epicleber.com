@@ -1,0 +1,258 @@
+% !TEX TS-program = LuaLaTeX
+
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage{scrextend}
+\usepackage{etaremune}
+\usepackage{mathptmx}
+%\usepackage{tgtermes}
+\usepackage{color}
+\usepackage{etaremune}
+
+% use http link for email
+\usepackage[colorlinks = true,
+          allcolors = PineGreen]{hyperref}            
+            %
+            
+%allow formula formatting
+\usepackage{amsmath}
+%\DeclareMathAlphabet\mathbfcal{OMS}{cmsy}{b}{n}
+\usepackage{comment}
+
+%title positon
+\usepackage{titling} %fix title
+\setlength{\droptitle}{-6em}   % Move up the title 
+
+%change section title font size
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\fontsize{12}{15}}{\thesection}{1em}{}[{\titlerule[0.5pt]}]
+  
+\titleformat{\subsection}
+  {\normalfont\fontsize{12}{13}}{\thesection}{1em}{}
+
+% change page margin and cancel identation
+\usepackage[top=0.6in, bottom=0.8in, left=0.5in, right=0.5in]{geometry} 
+\setlength{\parindent}{0pt}
+
+
+%allow modifying section titles 
+\usepackage[dvipsnames]{xcolor}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0in}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+\newcommand{\MYhref}[3][blue]{\href{#2}{\color{#1}{#3}}}%
+\begin{center}
+	\textbf{
+			{\huge I}{\Large SABEL} \hspace{-0.1em} 
+			{\huge R}{\Large OSE} \hspace{-0.1em} 
+			{\huge F}{\Large ULCHER}}\\
+\end{center}
+\begin{minipage}[t]{0.5\linewidth}
+\begin{flushleft}
+	\MYhref[black]{mailto:isabel_fulcher@hms.harvard.edu}{isabel\_fulcher@hms.harvard.edu} \\
+	\MYhref[black]{http://orcid.org/0000-0002-1209-824X}{ORCID: 0000-0002-1209-824X} 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.5\linewidth} 
+\begin{flushright}  
+	%\vspace*{1mm} 
+	{\LARGE
+		\href[pdfnewwindow=true]{http://isabelfulcher.github.io}{\faGlobe} \href{https://github.com/isabelfulcher}{\faGithub}  \href{https://scholar.google.com/citations?user=Pb7FyDkAAAAJ&hl=en}{\faGoogle}  \href{mailto:isabel_fulcher@hms.harvard.edu}{\faEnvelope }   \par
+	}
+\end{flushright}  
+\end{minipage}
+
+\section*{\textbf{{\large E}DUCATION}}
+
+\textbf{Harvard University} \hfill \hfill \textbf{Cambridge, MA}
+
+Doctor of Philosophy, Biostatistics \hfill \hfill March 2019 
+\begin{addmargin}[1em]{2em} \small{Dissertation Advisor: Eric Tchetgen Tchetgen} \\
+\small{Dissertation Title: ``Statistical Inference for Causal Mechanisms: Mediation and Interference'' \\} \end{addmargin} 
+
+\textbf{Harvard University} \hfill \hfill \textbf{Cambridge, MA}
+
+Masters of Arts, Biostatistics \hfill \hfill May 2016
+
+\vspace{.5cm}
+
+\textbf{McGill University} \hfill \hfill \textbf{Montreal, QC} \\
+Bachelor of Arts and Science, Mathematics and Anthropology  \hfill \hfill May 2012 
+
+
+%% Research Experience
+\section*{\textbf{{\large A}CADEMIC {\large A}PPOINTMENTS }}
+
+\textbf{Harvard Data Science Initiative \hfill \hfill Cambridge, MA} \\
+\textit{Postdoctoral Fellow}  \hfill \hfill September 2019 -- Current \\
+
+\textbf{Department of Global Health and Social Medicine, Harvard Medical School \hfill \hfill Boston, MA} \\
+\textit{Postdoctoral Fellow} \hfill \hfill January 2019 -- August 2019 \\
+Advisers: Bethany Hedt-Gauthier and Eric Tchetgen Tchetgen 
+
+% Peer-Reviewed Publications
+\section*{\textbf{{\large P}{EER} {\large R}{EVIEWED} {\large P}{UBLICATIONS}}}
+
+%\subsection*{\textbf{PEER REVIEWED}}
+
+\begin{etaremune}
+	
+	% Planned Parenthood (4) - Minors Cost, Minors Qual, Opioid Use 
+	
+	% Cottrill, A.A., \textbf{Fulcher, I.R.}, Goldberg, A.B., Sabino, J., Fortin, J., \& Janiak, E. (2020) Time trends in Massachusetss adolescents' post-abortion contraceptive uptake.  
+		
+	% Rindos, N.B., \textbf{Fulcher, I.R.}, \& Donellan, N.M. (2020). Self-Reported Pain and Quality of Life Following Laparoscopic Excision of Endometriosis as Measured Using the Endometriosis Health Profile-30: A 5 Year Follow-Up Study. 
+	
+	%\textbf{Fulcher, I. R.}, Lareau, C., Shpitser, I., \& Tchetgen Tchetgen, E. J. (2021). Bayesian auto-g-computation of network causal effects: incarceration and infection in a high risk network. \\
+	
+	\item \textbf{Fulcher, I. R.}, Nelson, A., Tibaijuka, J., Seif, S., Lilienfeld, S., Abdalla O., Beckmann, N., Layer, E., Hedt-Gauthier, B., \& Hoffman, R. (2020). Improving health facility delivery rates in Zanzibar, Tanzania through a large-scale digital community health volunteer program: A process evaluation. \textit{In Press} at Health Policy \& Planning. 
+	
+	\item Tchetgen Tchetgen, E. J., \textbf{Fulcher, I. R.}, \& Shpitser, I. (2020). Auto-g-computation of causal effects on a network. \textit{In Press} at Journal of American Statistical Association: Theory \& Methods. arXiv preprint arXiv:1709.01577. 
+	
+	\item \textbf{Fulcher, I. R.}, Hedt, K., Marealle, S., Abdalla O., Tibaijuka, J., Hoffman, R., Layer, E., Mitchell, M., \& Hedt-Gauthier, B. (2020). Errors in estimated gestational ages reduce the likelihood of health facility deliveries: results from an observational cohort study in Zanzibar. BMC Health Services Research, 20(1).
+	
+	\item \textbf{Fulcher, I. R.}, Shpitser, I., \& Tchetgen Tchetgen, E. J. (2019). Robust inference on population indirect causal effects: the generalized front-door criterion. Journal of the Royal Statistical Society Series B. DOI: 10.1111/rssb.12345
+	
+	\item \textbf{Fulcher, I. R.}, Shi, X., \& Tchetgen Tchetgen, E. J. (2019). Estimation of natural indirect effects robust to unmeasured confounding and mediator measurement error. Epidemiology, 30(6), 825-834.
+	
+	\item Janiak, E., \textbf{Fulcher, I. R.}, ..., \& Goldberg, A. (2019). Impact of Massachusetts' parental involvement law on procedural timing among adolescents seeking abortion. Obstetrics \& Gynecology, 133(5): 978-986.
+	
+	\item Bao, E.L., Lareau, C. A., Brugnara, C., \textbf{Fulcher, I. R.} et al. (2019). Heritability of fetal hemoglobin, white cell count, and other clinical traits from a sickle cell disease family cohort. American Journal of Hematology. DOI: 10.1002/ajh.25421. 
+	
+	\item \textbf{Fulcher, I. R.}, Tchetgen Tchetgen E. J., \& Williams, P. L. (2017). Mediation analysis for censored survival data under an accelerated failure time model.  Epidemiology, 28(5), 660-666. 
+\end{etaremune}
+
+
+%% Honors and Awards
+\section*{\textbf{{\large H}{ONORS} {\large \&} {\large A}{WARDS}}}
+University of Florida Statistics Workshop Travel Award \hfill \hfill 2019 \\
+National Science Foundation Travel Award for Atlantic Causal Inference Conference \hfill \hfill	2018 \\
+Barry R. and Irene Tilenius Bloom Fellowship \hfill \hfill	2018 \\
+Harvard University Distinction in Teaching \hfill \hfill 2017 \\
+Harvard T.H. Chan School of Public Health Rose Traveling Fellowship \hfill \hfill	2017 \\
+Maternal Health Task Force Travel Award \hfill \hfill	2017 \\
+Statistics in Epidemiology Young Investigator Award  \hfill \hfill	2017 \\
+McGill University Dean's Honour List  \hfill \hfill	2012 \\
+Golden Key International Honour Society  \hfill \hfill2010, 2011, 2012 
+
+%\section*{\textbf{{\large G}{RANTS} {\large \&} {\large F}{ELLOWSHIPS}}}
+
+% Presentations
+\section*{\textbf{{\large I}{NVITED} {\large T}{ALKS}}}   
+
+%``Identification and estimation of indirect effects robust to unmeasured confounding" Society for Epidemiological Research, Boston, MA (June 2020). \\
+
+%``Optimization of digital maternal health programs'' Willows Seminar, Harvard T.H. Chan School of Public Health, Boston, MA (April 2020). \\
+
+%``Bayesian auto-g-computation of network causal effects: incarceration and infection in a high risk network.'' ENAR, Nashville, TN (March 2020). \\
+
+%``Auto-g-computation of network causal effects: incarceration and infection in a high risk network.'' Statistics Seminar, University of Rhode Island, Kingston, RI (March 2020). \\
+
+``Bayesian auto-g-computation of network causal effects: incarceration and infection in a high risk network.'' Statistics \& Probability Seminar, University of Massachusetts Amherst, Amherst, MA (December 2019). \\
+
+``Improving the delivery of healthcare to pregnant women in sub-Saharan Africa with statistics and data science.'' Mathematics and Statistics Colloquium, Colby College, Waterville, ME (December 2019). \\ 
+
+``Bayesian auto-g-computation of network causal effects: incarceration and infection in a high risk network.'' Joint Statistical Meetings, Denver, CO (July 2019). \\
+
+``Bayesian auto-g-computation of network causal effects: incarceration and infection in a high risk network.'' New England Statistical Society, Hartford, CT (May 2019). 
+
+\section*{\textbf{{\large C}{ONFERENCE} {\large P}{ARTICIPATION}}}  
+
+\subsection*{\textbf{CONTRIBUTED TALKS}}
+
+% JSM 
+
+``The generalized front-door formula for estimation of indirect causal effects of a confounded treatment.'' ENAR Spring Meeting, Atlanta, GA (2018). \\
+
+``Data for decision-making in digital health programs: how analysis of routine data from the Safer Deliveries program in Zanzibar improved program implementation and mothers' outcomes.'' Global Digital Health Forum, Washington, DC (2017). \\
+
+``Mediation analysis for censored survival data under an accelerated failure time model.'' Joint Statistical Meetings, Baltimore, MD (2017). \\
+
+``The generalized front-door formula for identification of partial causal effects.'' ENAR Spring Meeting, Washington, DC (2017). \\
+
+``Mediation analysis for censored survival data under an accelerated failure time model.'' ENAR Spring Meeting, Austin, TX (2016). 
+
+\subsection*{\textbf{ POSTERS}}
+
+``Bayesian auto-g-computation of network causal effects: incarceration and infection in a high risk network.'' 21st Meeting of New Researchers in 
+Statistics and Probability. Fort Collins, CO (2019). \\
+
+``Estimation of natural indirect effects robust to unmeasured confounding and mediator measurement error.'' University of Florida Winter Workshop, Gainesville, FL (2019). \\
+
+``Nonparametric identification and robust estimation of indirect causal effects in the presence of exposure-outcome confounding.'' Atlantic Causal Inference Conference, Pittsburgh, PA (2018). \\
+
+``Auto-g-computation of causal effects on a sexual and injection-drug use network.'' Harvard Data Science Conference, Cambridge, MA (2018). \\
+
+``Working towards safer deliveries in Zanzibar, Tanzania.'' Future Health Campaign Celebration, Harvard T.H. Chan School of Public Health, Boston, MA (2018). \\
+
+``Nonparametric identification and robust estimation of indirect causal effects in the presence of exposure-outcome confounding.'' Atlantic Causal Inference Conference, Pittsburgh, PA (2018). 
+
+%\section*{\textbf{{\large C}{AMPUS} {\large T}{ALKS}}}  
+
+
+%% Teaching Experience
+\section*{\textbf{{\large T}{EACHING} {\large E}{XPERIENCE}}}
+\textbf{Global Initiative for Neuropsychiatric Genetics Education in Research \hfill \hfill Addis Ababa, Ethiopia} \\
+\textit{Teaching Fellow}, Interactive Biostatistics Workshop \hfill \hfill November 2019 \\
+
+\textbf{Harvard T.H. Chan School of Public Health \hfill \hfill Boston, MA} \\
+\textit{Instructor}, Biostatistics Preparatory Course: Methods and Computing in R \hfill \hfill Summer 2018 \\
+\textit{Instructor}, Stata Orientation for Incoming Graduate Students \hfill \hfill	Summer 2016, 2017, 2018\\
+\textit{Head Teaching Assistant}, Core Principles of Biostatistics and Epidemiology \hfill \hfill Fall 2016, 2017 \\
+\textit{Teaching Assistant}, Core Principles of Biostatistics and Epidemiology \hfill \hfill Fall 2015 \\
+\textit{Teaching Assistant}, Quantitative Methods in Program Evaluation \hfill \hfill Spring 2017 \\
+\textit{Teaching Assistant}, Methods for Monitoring and Evaluation \hfill \hfill Spring 2016 \\
+
+\textbf{University of Global Health Equity \hfill \hfill Kigali, Rwanda} \\
+\textit{Teaching Assistant}, Program Monitoring, Evaluation, and Research Methods  \hfill \hfill Spring 2017, 2018 \\
+
+\textbf{D-tree International \hfill \hfill Zanzibar, Tanzania}\\
+\textit{Instructor}, Data Analysis and Stata Software Training Course \hfill \hfill Summer 2017  \\
+
+\textbf{McGill University \hfill \hfill Montreal, QC}\\
+\textit{Teaching Assistant}, Probability \hfill \hfill Fall 2010, 2011 \\
+\textit{Teaching Assistant}, Statistics \hfill \hfill Spring 2012 
+
+\section*{\textbf{{\large A}{CADEMIC} {\large C}{ONSULTING} {\large E}{XPERIENCE}}}
+Bridge to Health USA \hfill \hfill May 2019 -- Present  \\
+Planned Parenthood League of Massachusetts \hfill \hfill August 2017 -- Present  \\
+D-tree International, Tanzania \hfill \hfill May 2017 -- Present \\
+Department of OB/GYN/RS, University of Pittsburgh School of Medicine  \hfill \hfill April 2018 -- March 2019 
+
+\section*{\textbf{{\large I}{NDUSTRY} {\large E}{XPERIENCE}}}
+\textbf{ZS Associates \hfill \hfill Evanston, IL} \\
+\textit{Business Associate} \hfill \hfill September 2012 -- July 2014 
+
+\section*{\textbf{{\large P}{ROFESSIONAL} {\large S}{ERVICE}}}
+\subsection*{\textbf{JOURNAL PEER REVIEWER}}
+\textit{Annals of Global Health} \\ 
+\textit{BMJ Open} \\ 
+\textit{Biometrics} \\
+\textit{Epidemiology} \\
+\textit{Journal of Causal Inference} \\ 
+\textit{Statistical Methods in Medical Research}
+
+\subsection*{\textbf{UNIVERSITY ACTIVITY}}
+\textit{Mentor}, Pipelines into Biostatistics Summer Program, Harvard T.H. Chan School of
+Public Health \hfill \hfill 2018 \\
+\textit{Student Committee Chair}, Department of Biostatistics, Harvard T.H. Chan School of
+Public Health \hfill \hfill 2018 \\
+\textit{Organizer}, HIV Working Group, Department of Biostatistics, Harvard T.H. Chan School of
+Public Health \hfill \hfill 2017 
+
+
+
+\end{document}
