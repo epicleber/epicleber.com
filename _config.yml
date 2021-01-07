@@ -9,7 +9,7 @@
 title: Cleber Santos
 
 # Your name to show in the footer
-
+author: Cleber Santos
 
 # --- List of links in the navigation bar --- #
 
@@ -37,9 +37,8 @@ round-avatar: true
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
-#social-network-links:
-author:
-  name: Cleber Santos
+social-network-links:
+
   email: "cleber.vini@yahoo.com.br"
   #facebook: Cleber Santos
   github: clebervbsantos
