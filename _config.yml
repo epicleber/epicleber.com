@@ -10,7 +10,7 @@
 # baseurl is the website's URL without the hostname
 
 # build options
-destination: /var/www/html/normandcyr.com/public_html/
+destination: /var/www/html/epicleber.com/public_html/
 #destination: _site/
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
