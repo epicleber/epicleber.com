@@ -1,0 +1,15 @@
+# project
+_site
+.sass-cache
+.vagrant
+descriptions.md
+_config-local.yml
+blog.md
+_posts/
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+_includes/gtm_head-old.html
