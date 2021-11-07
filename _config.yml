@@ -6,24 +6,27 @@
 # --- Required options --- #
 
 # Name of website
-title: Cleber Santos
+title: Cleber Santos, MSc
 
 # Your name to show in the footer
 author: Cleber Santos
 
+# Short description of your site
+description: Infectious diseases research scientist involved in academic research.
+
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "https://clebervbsantos.github.io"
- #Research:
- #
+  About: "about"
+ Research: "research"
   Resumé: "Resumé.pdf"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "img/Logo_website.png"
+avatar: "img/avatar.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -41,15 +44,16 @@ social-network-links:
 
   email: "cleber.vini@yahoo.com.br"
   #facebook: Cleber Santos
-  github: clebervbsantos
+  github: epicleber
   twitter: Epidemio_Logic
+  researchgate: "https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjcyK_skYf0AhV3D7kGHcO1CT8QFnoECAoQAQ&url=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FCleber-Santos-2&usg=AOvVaw3JLwcr_fKN_FlNar6daGze"
   #patreon: 
   #youtube: 
 #  reddit: yourname
-#  linkedin: 
+  linkedin: "https://www.linkedin.com/in/cleber-vinicius-brito-dos-santos-87a6b276"
 #  xing: 
 #  stackoverflow: 
-#  instagram: @cleberviniciusb
+  instagram: @cleberviniciusb
 #  spotify: 
 #  telephone: +55 21 96926-8835
 #  steam: 
@@ -58,8 +62,8 @@ social-network-links:
 #  telegram: 
 #  calendly: yourname
 #  mastodon: instance.url/@username
-  ORCID: 0000-0001-5710-2866
-#  google-scholar: your google scholar
+  ORCID: "https://orcid.org/0000-0001-5710-2866"
+  google-scholar: "https://scholar.google.com/citations?user=kCXwwl0AAAAJ&hl=pt-BR&oi=ao"
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
@@ -73,13 +77,23 @@ share-links-active:
   ORCID: true
   email: true
   github: true
-  facebook: false
-  linkedin: false
+  #facebook: false
+  linkedin: true
+  instagram: true
+  google-scholar: true
+  researchgate: true
  # vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-#url-pretty: "https://clebervbsantos.github.io"
+url-pretty: "epicleber.com"
+
+
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: "GTM-KJ58DK9"
+
+# Google Tag Manager ID
+gtm: "GTM-KJ58DK9"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -188,7 +202,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Brazil"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
