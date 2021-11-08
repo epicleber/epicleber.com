@@ -13,19 +13,7 @@ use-site-title: true
  <p>Welcome! My name is Cleber Vinicius Brito dos Santos. I’m currently a doctorate student at the <a href="https://https://www.ims.uerj.br">Instituto de Medicina Social</a>. I work with <a href="https://emap.fgv.br/en/faculty/claudio-jose-struchiner">Cláudio José Struchiner</a>, and <a href="https://publons.com/researcher/1202227/guilherme-werneck/">Guilherme Loureiro Werneck</a>, and my current doctorate project focuses in infectious disease epidemiology, specifically we aim to evaluate and optimize vaccine trials.  </br> </br>
 Previously, I did my MSc in the same institute and supervisor.  In there we estimated the causal effects of deforestation on the occurrence of Visceral Leishmaniasis in the São Paulo State (Brazil). </br> </br>
   </p>
-            </div>
-            <div class="col-md-6"> 
-            	<br><br><br>
-            	  <figure>
-                <img src="img/headshot.jpeg" width = 340 height = 255 alt="Cleber">
-                </figure>
-		</div>
-	    </div><!-- row -->
-	
-    </div> <!-- /container -->
-
-
-
+        
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
