@@ -11,7 +11,7 @@ use-site-title: true
     	<div class="row">
             <div class="col-md-6">
 
-<p> Hi! I'm Cleber Vinicius Brito dos Santos. I'm a second-year doctorate student in Public Health at the <a href="https://https://www.ims.uerj.br">Instituto de Medicina Social</a> at the State University of Rio de Janeiro (UERJ), under the joint supervision of <a href="https://scholar.google.com/citations?user=kVh9mCwAAAAJ&hl=pt-BR&oi=ao">Cláudio José Struchiner</a>, and <a href="https://scholar.google.com/citations?user=UK-Di5gAAAAJ&hl=pt-BR&oi=ao">Guilherme Loureiro Werneck</a>
+Hi! I'm Cleber Vinicius Brito dos Santos. I'm a second-year doctorate student in Public Health at the <a href="https://https://www.ims.uerj.br">Instituto de Medicina Social</a> at the State University of Rio de Janeiro (UERJ), under the joint supervision of <a href="https://scholar.google.com/citations?user=kVh9mCwAAAAJ&hl=pt-BR&oi=ao">Cláudio José Struchiner</a>, and <a href="https://scholar.google.com/citations?user=UK-Di5gAAAAJ&hl=pt-BR&oi=ao">Guilherme Loureiro Werneck</a>
 In my master (at the same Institute and supervisors) I've studied the impact of deforestation in the occurrence of a neglected tropical disease, Visceral Leishmaniasis, through São Paulo State resulting in this <a href="https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2021.1537">paper</a>.  
 Previously, I finished a Bachelor's degree in Veterinary Medicine from the Universidade Federal Rural de Pernambuco and I went to an internship the Epidemiology sector of the Recife Health Secretariat during the 2015/2016 epidemic of dengue, Zika, and chikungunya.
 
