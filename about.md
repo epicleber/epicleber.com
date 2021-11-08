@@ -10,8 +10,13 @@ use-site-title: true
 <div class="container">
     	<div class="row">
             <div class="col-md-6">
- <p>Welcome! My name is Cleber Vinicius Brito dos Santos. I’m currently a doctorate student at the <a href="https://https://www.ims.uerj.br">Instituto de Medicina Social</a>. I work with <a href="https://emap.fgv.br/en/faculty/claudio-jose-struchiner">Cláudio José Struchiner</a>, and <a href="https://publons.com/researcher/1202227/guilherme-werneck/">Guilherme Loureiro Werneck</a>, and my current doctorate project focuses in infectious disease epidemiology, specifically we aim to evaluate and optimize vaccine trials.  </br> </br>
-Previously, I did my MSc in the same institute and supervisor.  In there we estimated the causal effects of deforestation on the occurrence of Visceral Leishmaniasis in the São Paulo State (Brazil). </br> </br>
+
+<p> Hi! I'm Cleber Vinicius Brito dos Santos. I'm a second-year doctorate student in Public Health at the <a href="https://https://www.ims.uerj.br">Instituto de Medicina Social</a> at the State University of Rio de Janeiro (UERJ), under the joint supervision of<a href="https://scholar.google.com/citations?user=kVh9mCwAAAAJ&hl=pt-BR&oi=ao">Cláudio José Struchiner</a>, and <a href="https://scholar.google.com/citations?user=UK-Di5gAAAAJ&hl=pt-BR&oi=ao">Guilherme Loureiro Werneck</a>
+In my master (at the same Institute and supervisors) I've studied the impact of deforestation in the occurrence of a neglected tropical disease, Visceral Leishmaniasis, through São Paulo State resulting in this <a href="https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2021.1537">paper</a>.  
+Previously, I finished a Bachelor's degree in Veterinary Medicine from the Universidade Federal Rural de Pernambuco and I went to an internship the Epidemiology sector of the Recife Health Secretariat during the 2015/2016 epidemic of dengue, Zika, and chikungunya. </br> </br>
+
+
+
   </p>
         
 <div class="posts-list">
