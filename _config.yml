@@ -1,7 +1,3 @@
-# Welcome to Beautiful Jekyll!
-# This config file is meant for settings that affect your entire website. When you first
-# set up your website you should go through all these settings and edit them, but after
-# the initial set up you won't need to come back to this file often.
 
 
 # --- General options --- #
@@ -56,8 +52,8 @@ round-avatar: true
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
-social-network-links:
-
+author: 
+  name: Cleber Santos
   email: "cleber.vini@yahoo.com.br"
   #facebook: Cleber Santos
   github: epicleber
@@ -81,14 +77,10 @@ social-network-links:
   ORCID: "https://orcid.org/0000-0001-5710-2866"
   google-scholar: "https://scholar.google.com/citations?user=kCXwwl0AAAAJ&hl=pt-BR&oi=ao"
 
-# If you want to show a link to an RSS in the footer, add the site description here.
-# If you don't want to show an RSS link, remove the following line.
-#rss-description: This website is a virtual proof that I'm awesome
-
 # --- General options --- #
 
 # Select which social network share links to show in posts
-share-links-active:
+footer-links-active:
   twitter: true
   ORCID: true
   email: true
@@ -113,6 +105,10 @@ gtm: "GTM-KJ58DK9"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
