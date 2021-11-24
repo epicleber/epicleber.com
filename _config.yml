@@ -32,7 +32,7 @@ description: Infectious diseases research scientist involved in academic researc
 navbar-links:
  #About: "about"
  #Research: "research"
- Resumé: "Resumé.pdf"
+ Resumé: "/Resumé.pdf"
 
 # --- Logo --- #
 
