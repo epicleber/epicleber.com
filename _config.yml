@@ -30,8 +30,8 @@ description: Infectious diseases research scientist involved in academic researc
 # --- List of links in the navigation bar --- #
 
 navbar-links:
- About: "about"
- Research: "research"
+ #About: "about"
+ #Research: "research"
  Resumé: "pdf/Resumé_CVBdS.pdf"
 
 # --- Logo --- #
