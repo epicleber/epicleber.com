@@ -74,7 +74,7 @@ author:
 #  telegram: 
 #  calendly: yourname
 #  mastodon: instance.url/@username
-  ORCID: "https://orcid.org/0000-0001-5710-2866"
+  ORCID: "0000-0001-5710-2866"
   google-scholar: "https://scholar.google.com/citations?user=kCXwwl0AAAAJ&hl=pt-BR&oi=ao"
 
 # --- General options --- #
